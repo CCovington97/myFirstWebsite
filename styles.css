@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+h1{
+    text-align:center;
+    color:navy;
+    font-size: 15mm;
+    text-decoration: underline;
+    /* background-color: skyblue; */
+    margin: 0;
+    padding: 60px 0px;
+}
+.jumbotron {
+/* background-color:skyblue; */
+background-image: url(images/funko.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+h2{
+margin-left: 100px;
+}
+.column {
+    float: left;
+    width: 31%;
+    margin: 1%;
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+.container:after{
+    content: "";
+    display:table;
+    clear:both;
+}
